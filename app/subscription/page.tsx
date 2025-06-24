@@ -1,7 +1,12 @@
 import React from "react";
+import { PricingTable } from "@clerk/nextjs";
 
 const Subscription = () => {
-  return <div>Subs</div>;
+  return (
+    <div className={"m-6"}>
+      <PricingTable />
+    </div>
+  );
 };
 
 export default Subscription;
